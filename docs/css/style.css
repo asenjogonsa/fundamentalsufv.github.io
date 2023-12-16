@@ -4,6 +4,10 @@ body {
 	line-height: 1.5;
 	color: #333;
 	background-color: #fff;
+	background-image: url("images/car-background.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
   }
   
   header {
@@ -15,8 +19,9 @@ body {
   }
   
   h1 {
-	font-size: 24px;
+	font-size: 48px;
 	font-weight: bold;
+	text-shadow: 0 1px 3px #ccc;
   }
   
   nav {
@@ -40,6 +45,7 @@ body {
 	color: black;
 	font-weight: bold;
 	padding: 10px 20px;
+	text-shadow: 0 1px 1px #ccc;
   }
   
   a:hover {
@@ -53,6 +59,7 @@ body {
 	padding: 10px 20px;
 	border: none;
 	cursor: pointer;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
   }
   
   section {
@@ -61,9 +68,6 @@ body {
   
   #hero {
 	position: relative;
-	background-image: url("images/car-background.jpg");
-	background-size: cover;
-	background-position: center;
 	height: 500px;
 	color: white;
 	text-align: center;
@@ -71,12 +75,26 @@ body {
   }
   
   #hero h1 {
-	font-size: 48px;
+	font-size: 56px;
+	font-weight: bold;
+	text-shadow: 0 1px 3px #ccc;
   }
   
   #hero p {
 	font-size: 24px;
 	line-height: 1.5;
+	text-shadow: 0 1px 1px #ccc;
+  }
+  
+  #hero img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
   }
   
   #about {
@@ -127,31 +145,35 @@ body {
 	}
   
 	#hero {
-	  height: 300px;
+	  
+		height: 300px;
 	}
-  
+	
 	#hero h1 {
-	  font-size: 36px;
+	  font-size: 42px;
 	}
-  
+	
 	#hero p {
 	  font-size: 18px;
 	}
-  
+	
+	#hero img {
+	  width: 240px;
+	  height: 240px;
+	}
+	
 	#about {
+	  background-color: #fff;
 	  padding: 10px;
 	}
-  
+	
 	.bio img {
 	  width: 120px;
 	}
-  
-	.skills li {
-	  font-size: 16px;
-	}
-  
+	
 	.contact li {
 	  font-size: 16px;
 	}
-  }
+	}
+	  
   
