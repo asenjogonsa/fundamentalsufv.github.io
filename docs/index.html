@@ -1,86 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Passion for Porsche</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="keywords" content="FSAE Electric, FSAE, Formula SAE, Formula SAE Electric, MIT, MIT Motorsports, MIT Racing, MIT Racecar">
+  <meta name="description" content="The MIT Motorsports team participates in the Formula SAE Electric competition every year.">
+  <title>MIT Motorsports</title>
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="logos/favicon/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="logos/favicon/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="logos/favicon/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="logos/favicon/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="logos/favicon/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="logos/favicon/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="logos/favicon/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="logos/favicon/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="logos/favicon/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="logos/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="logos/favicon/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="logos/favicon/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="logos/favicon/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="&nbsp;"/>
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="logos/favicon/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="logos/favicon/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="logos/favicon/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="logos/favicon/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="logos/favicon/mstile-310x310.png" />
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" integrity="sha256-e22BQKCF7bb/h/4MFJ1a4lTRR2OuAe8Hxa/3tgU5Taw=" crossorigin="anonymous" />
+  <link href="css/style.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-  <header>
-    <h1>Porsche Enthusiast & Web Developer</h1>
-  </header>
 
-  <main>
-    <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#topic">My Passion for Porsches</a></li>
-        <li><a href="#net">Partner Pages</a></li>
-        <li><a href="#contact">Contact Me</a></li>
+  <!-- Start Navbar -->
+  <nav class="grey darken-4" role="navigation">
+    <div class="nav-wrapper container">
+      <ul class="right hide-on-med-and-down" style="position: relative; z-index:10000">
+        <li><a class="white-text" href="about.html">About</a></li>
+        <li><a class="white-text" href="team.html">Team</a></li>
+        <li><a class="white-text" href="car.html">Car</a></li>
+        <li><a class="white-text" href="sponsors.html">Partners</a></li>
+        <li><a class="white-text" href="media.html">Media</a></li>
+        <li><a class="white-text" href="contact.html">Contact</a></li>
       </ul>
-    </nav>
 
-    <section id="hero">
-      <img src="images/porsche.jpg" alt="Porsche">
-      <h1>Porsche Enthusiast</h1>
-      <p>Passionate about Porsches and web development, I'm a web developer combining my love for both to create innovative solutions for the automotive industry.</p>
-      <a href="#" class="btn">Get in Touch</a>
-    </section>
+      <ul id="nav-mobile" class="side-nav grey darken-4">
+        <li><a class="white-text" href="about.html">About</a></li>
+        <li><a class="white-text" href="team.html">Team</a></li>
+        <li><a class="white-text" href="car.html">Car</a></li>
+        <li><a class="white-text" href="sponsors.html">Partners</a></li>
+        <li><a class="white-text" href="media.html">Media</a></li>
+        <li><a class="white-text" href="contact.html">Contact</a></li>
+      </ul>
 
-    <section id="about">
-      <h2>About Me</h2>
-      <img src="images/profile.jpg" alt="Profile picture">
-      <p>I'm a highly motivated and results-oriented individual with a passion for cars and technology. I'm currently pursuing my degree in Automotive Engineering and have a strong background in web development. I'm always looking for new challenges and opportunities to learn and grow.</p>
+      <div id="logo-container" style="height:90%; width:90%">
+        <a href="index.html" class="brand-logo hide-on-med-and-down"><img style="height:90%; width:90%" src="logos/dark/full.svg" alt="logo"></a>
+        <a href="index.html" class="brand-logo hide-on-large-only"><img src="logos/dark/bars.svg" alt="logo"></a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">menu</i></a>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
 
-      <section class="bio">
-        <h2>A Brief Overview</h2>
-        <p>I'm a creative and analytical thinker with a knack for problem-solving and innovation. I'm also a team player and thrive in collaborative environments.</p>
-      </section>
+  <!-- First image -->
+  <div id="index-banner" class="parallax-container valign-wrapper overlay">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <!---<h1 class="header center white-text">MIT Motorsports</h1>--->
+        </div>
+      </div>
+    </div>
+    <div class="parallax">
+      <div class="video-container">
+        <!--<div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/s/rwnn8/jzelqc?autoplay=1&muted=1" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>-->
+        <video autoplay loop muted width="100%" height="100%" class="responsive-video">
+            <source src="images/videos/palmer1.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
 
-      <section class="skills">
-        <h2>Technical Expertise</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>jQuery</li>
-        </ul>
-      </section>
+  <!--Infographic Section -->
+  <div class="container">
+    <div class="section">
 
-      <section class="contact">
-        <h2>Get in Touch</h2>
-        <p>Email: youremail@example.com</p>
-        <p>Phone: +1 234 567 890</p>
-        <p>Social Media:</p>
-        <ul>
-          <li><a href="#">LinkedIn</a></li>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Twitter</a></li>
-        </ul>
-      </section>
-    </section>
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <a href="team.html"><h2 class="center black-text"><i class="material-icons">group</i></h2></a>
+            <h5 class="center">Team</h5>
+            <p class="light center">MIT Motorsports is a dedicated group of students that strives to engineer a Formula SAE car of the highest calibre.</p>
+          </div>
+        </div>
 
-    <section id="topic">
-      <h2>My Passion for Porsches</h2>
-      <p>My passion for Porsches started at a young age. I've always been fascinated by the history, design, and performance of these incredible cars. I love the feeling of getting behind the wheel of a Porsche and experiencing its exhilarating power and handling.</p>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <a href="team.html"><h2 class="center black-text"><i class="material-icons">settings</i></h2></a>
+            <h5 class="center">Mechanical</h5>
+            <p class="light center">The Mechanical team, lead by our chief engineer, manages topics ranging from aerodynamics to frame design and packaging.</p>
+          </div>
+        </div>
 
-      <section id="topicContent">
-        <h2>Why I Love Porsches</h2>
-        <p>I admire the craftsmanship and attention to detail that goes into creating a Porsche. I also love the innovation and technology that Porsche is constantly pushing the boundaries of.</p>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <a href="team.html"><h2 class="center black-text"><i class="material-icons">memory</i></h2></a>
+            <h5 class="center">Electrical</h5>
+            <p class="light center">The Electrical team develops all the electronics and software necessary for the car to accelerate and drive during the competition.</p>
+          </div>
+        </div>
+      </div>
 
-        <h2>What I Admire About Porsches</h2>
-        <p>I admire Porsche's commitment to engineering excellence and its dedication to creating cars that are both beautiful and functional. I also love the fact that Porsche is a family-owned company that has been producing incredible cars for over 70 years.</p>
+    </div>
+  </div>
 
-        <h2>How Porsches Have Inspired Me</h2>
-        <p>Porsches have inspired me to pursue a career in automotive engineering and web development. I believe that my skills in both fields will allow me to create innovative solutions for the automotive industry.</p>
-      </section>
-    </section>
-  </main>
+  <!--Second image-->
+  <div class="parallax-container valign-wrapper">
+    <div class="parallax"><img src="images/backgrounds/team_front2017.jpg" class="responsive-img" alt="team with MY17 car"></div>
+  </div>
 
-  <footer>
-    <p>&copy; 2023 My Passion for Porsche</p>
+  <div class="section">
+    <div class="row">
+      <div class="col s12 center">
+        <h3><i class="mdi-content-send brown-text"></i></h3>
+        <h4>Thank You to Our Sponsors</h4>
+        <br>
+        <img src="images/sponsor_logos/SponsorSpread.png" alt="sponsors" class="responsive-img">
+      </div>
+    </div>
+  </div>
+
+  <!--Third Image-->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <!---<h2 class="header col s12 light">Formula SAE Lincoln 2017 Silver Cup</h2>--->
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/backgrounds/trophy_sunset2017.jpg" class="responsive-img" alt="MY17 car with silver trophy"></div>
+  </div>
+
+  <!--Start Footer-->
+  <footer class="page-footer red darken-4">
+    <div class="container">
+      <div class="row valign-wrapper">
+        <div class="col l1 s12">
+          <ul>
+            <li><a class="white-text" href="index.html">Home</a></li>
+            <li><a class="white-text" href="about.html">About</a></li>
+            <li><a class="white-text" href="team.html">Team</a></li>
+            <li><a class="white-text" href="car.html">Car</a></li>
+          </ul>
+        </div>
+        <div class="col l1 s12 top">
+          <ul>
+            <li><a class="white-text" href="sponsors.html">Partners</a></li>
+            <li><a class="white-text" href="contact.html">Contact</a></li>
+            <li><a class="white-text" href="media.html">Media</a></li>
+            <li><a class="white-text" href="credits.html">Credits</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <ul>
+            <li><span class="white-text">MIT Building N51</span></li>
+            <li><span class="white-text">265 Massachusetts Ave</span></li>
+            <li><span class="white-text">Cambridge, MA 02139</span></li>
+            <li><span class="white-text">fsae@mit.edu</span></li>
+          </ul>
+        </div>
+        <div class="col l8 s12">
+          <a href="https://www.facebook.com/mitfsae/" target="_blank"><img class="grow" src="images/social_media_icons/facebook.png" alt="Facebook" style="padding-right:10px; padding-bottom:2px;"></a>
+          <a href="https://twitter.com/mitracing?lang=en" target="_blank"><img class="grow" src="images/social_media_icons/twitter.png" alt="Twitter" style="padding-right:10px; padding-bottom:2px;"></a>
+          <a href="https://www.instagram.com/mitmotorsports/" target="_blank"><img class="grow" src="images/social_media_icons/instagram.png" alt="Instagram" style="padding-right:10px;"></a>
+          <a href="https://www.youtube.com/channel/UCtUTv52fJi8hfXDDovnQHeA" target="_blank"><img class="grow" src="images/social_media_icons/youtube.png" alt="YouTube" style="padding-right:10px;"></a>
+          <a href="https://github.com/MITMotorsports" target="_blank"><img class="grow" src="images/social_media_icons/github.png" alt="GitHub" style="padding-right:10px;"></a>
+          <a href="https://giving.mit.edu/give/to?fundId=2733854" target="_blank"><img class="grow" src="images/social_media_icons/donate3.png" alt="Donate"></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      MIT Motorsports | <a class="brown-text text-lighten-3" href="credits.html">Credits</a>
+      </div>
+    </div>
   </footer>
-</body>
+  <!--End Footer-->
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
