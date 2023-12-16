@@ -1,47 +1,41 @@
 body {
-	/* Sets the font family and background color */
 	font-family: sans-serif;
-	margin: 0;
-	padding: 0;
-	background-color: #f2f2f2;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #fff;
   }
   
   header {
-	/* Styles the header section */
 	background-color: #007bff;
-	color: white;
+	color: #fff;
 	text-align: center;
 	padding: 20px;
 	border-bottom: 1px solid #ccc;
   }
   
   h1 {
-	/* Customizes the font size and weight for the main heading */
 	font-size: 24px;
 	font-weight: bold;
   }
   
   nav {
-	/* Styles the navigation bar */
 	background-color: #f2f2f2;
 	padding: 20px;
   }
   
   ul {
-	/* Removes the default list style */
 	list-style: none;
 	margin: 0;
 	padding: 0;
   }
   
   li {
-	/* Displays list items as inline-blocks with a margin between them */
 	display: inline-block;
 	margin-right: 20px;
   }
   
   a {
-	/* Styles the navigation links */
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
@@ -49,13 +43,11 @@ body {
   }
   
   a:hover {
-	/* Highlights the links on hover */
 	background-color: #007bff;
 	color: white;
   }
   
   .btn {
-	/* Styles the button element */
 	background-color: #007bff;
 	color: white;
 	padding: 10px 20px;
@@ -64,12 +56,10 @@ body {
   }
   
   section {
-	/* Adds spacing between sections */
 	margin: 20px 0;
   }
   
   #hero {
-	/* Styles the hero section with a background image and text overlay */
 	position: relative;
 	background-image: url("images/car-background.jpg");
 	background-size: cover;
@@ -81,24 +71,20 @@ body {
   }
   
   #hero h1 {
-	/* Enlarges the main heading in the hero section */
 	font-size: 48px;
   }
   
   #hero p {
-	/* Adjusts the font size and line height for the introductory paragraph */
 	font-size: 24px;
 	line-height: 1.5;
   }
   
   #about {
-	/* Styles the about section with a white background and padding */
-	background-color: white;
+	background-color: #fff;
 	padding: 20px;
   }
   
   .bio img {
-	/* Positions and styles the profile image in the about section */
 	width: 150px;
 	height: auto;
 	border-radius: 50%;
@@ -106,21 +92,18 @@ body {
   }
   
   .skills li {
-	/* Styles the skills list in the about section, using font-size and list-style */
 	font-size: 18px;
 	list-style: none;
 	margin-bottom: 10px;
   }
   
   .contact li {
-	/* Styles the contact information list in the about section, using font-size and list-style */
 	font-size: 18px;
 	list-style: none;
 	margin-bottom: 10px;
   }
   
   footer {
-	/* Styles the footer section with a dark background, white text, and a centered layout */
 	background-color: #007bff;
 	color: white;
 	padding: 20px;
@@ -128,5 +111,47 @@ body {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+	body {
+	  font-size: 14px;
+	}
+  
+	header {
+	  padding: 10px;
+	}
+  
+	nav {
+	  padding: 10px;
+	}
+  
+	#hero {
+	  height: 300px;
+	}
+  
+	#hero h1 {
+	  font-size: 36px;
+	}
+  
+	#hero p {
+	  font-size: 18px;
+	}
+  
+	#about {
+	  padding: 10px;
+	}
+  
+	.bio img {
+	  width: 120px;
+	}
+  
+	.skills li {
+	  font-size: 16px;
+	}
+  
+	.contact li {
+	  font-size: 16px;
+	}
   }
   
